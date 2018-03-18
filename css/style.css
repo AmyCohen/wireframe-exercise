@@ -2,12 +2,19 @@ body {
   font-family: 'Arial', 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
   height: 100%;
   margin: auto;
-  width: 960px;
+  width: 100%;
   overflow: hidden;
 }
 
 header {
+  background-color: #666666;
   height: 130px;
+  margin: auto;
+}
+
+header div {
+  width: 960px;
+  margin: auto;
 }
 
 header img {
@@ -19,8 +26,8 @@ header img {
 header ul {
   margin-right: 80px;
 }
+
  header ul li {
-   display: inline-block;
    float: right;
    font-size: 1.2em;
    line-height: 130px;
@@ -28,25 +35,36 @@ header ul {
    padding-right: 30px;
  }
 
- section.hero {
-   margin-bottom: 30px;
+ main {
+   width: 960px;
+   margin: auto;
  }
 
- section.cards {
+ section.hero {
+   height: 450px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   max-width: 960px;
+   width: 960px;
+ }
+
+ section.deck {
    height: 375px;
+   margin: auto;
    margin-bottom: 30px;
  }
- section.cards li {
+ section.deck li {
    display: inline-block;
  }
 
- #middleCard {
-   margin-left: 30px;
-   margin-right: 30px;
+ section.deck ul li.middleCard {
+   margin-left: 24.5px;
+   margin-right: 24.5px;
  }
 
  section.callToAction {
    height: 375px;
+   width: 960px;
  }
  section.callToAction img {
   margin-right: 30px;
@@ -78,7 +96,12 @@ header ul {
  }
 
  footer {
+  background-color: #666666;
    height: 225px;
    margin-top: 30px;
+ }
+
+ footer div {
+   margin: auto;
    width: 960px;
  }
